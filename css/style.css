@@ -80,6 +80,8 @@
   .toggle {
     margin: 5px 5px 0 0;
   }
+
+
 /*home*/
 .upper{
 	position: relative;
@@ -101,29 +103,31 @@
 	filter: blur(5px);*/
 }
 
-.page{
-	margin: 0;
-}
-
 .banner{
 	position: absolute;
 	border: 4px solid white;
-	width: 50%;
-	top:50%;
+	width: 100%;
+	top:25%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -25%);
 	text-align: center;
 	padding: 10px;
 }
 
 .banner > img{
-	width: 25%;
+	width: 15%;
 	display: block;
 	margin: auto;
   border-radius: 50%;
 }
 
+.social-media{
+  margin-top: 40px;
+}
 
+.icons{
+  
+}
 /*page*/
 .container-fluid{
 	border:2px solid red;
