@@ -22,6 +22,6 @@
 	});
 });
 
-  $('html, body').stop().animate({
-     'scrollTop': $target.offset().top
-}, 900, 'swing');
+//   $('html, body').stop().animate({
+//      'scrollTop': $target.offset().top
+// }, 900, 'swing');

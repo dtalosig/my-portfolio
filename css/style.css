@@ -1,6 +1,4 @@
-/*sidebar*/
-  #sidebar-wrapper {
-    z-index: 10;
+#sidebar-wrapper {
     margin-right: -250px;
     right: 0;
     width: 250px;
@@ -66,6 +64,7 @@
     right: 0;
     position: fixed;
     z-index: 1;
+    opacity: 0.8;
   }
 
   #sidebar-wrapper.active {
@@ -113,18 +112,18 @@
 	padding: 10px;
 }
 
-.banner > img{
+.banner img{
 	width: 15%;
 	display: block;
 	margin: auto;
   border-radius: 50%;
 }
 
-.banner > h1{
+.banner h1{
   color: white;
 }
 
-.banner > h3{
+.banner h3{
   color: white;
 }
 
@@ -132,7 +131,9 @@
   margin-top: 40px;
 }
 
-
+.download a{
+    margin-top: 30px;
+}
 
 
 /*page*/
@@ -515,12 +516,12 @@
 /*loading at left*/
 @keyframes loading-css-2{
     0%{
-        -webkit-transform: rotate(108deg);
-        transform: rotate(108deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     100%{
-        -webkit-transform: rotate(108deg);
-        transform: rotate(108deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 }
 .progress .progress-value-css{
@@ -781,7 +782,6 @@
 /*capstone*/
 .capstone{
 	width: 100%;
-	min-height: 100vh;
 	background-color: #E7E7E7;
 	text-align: center;
 	margin: 0;
@@ -794,9 +794,16 @@
 .image-container {
   width: 100%;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
 }
+
+.image-container:hover{
+  width: 100%;
+  background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
 
 .image-container-content {
     text-align: center;
@@ -815,7 +822,7 @@
 	margin: 0;
 }
 
-.contact h2{
+.contact h1{
 	text-align: center;
 }
 
@@ -840,3 +847,65 @@ hr{
 	width: 80%;
 }
 
+
+/*extra large*/
+@media only screen and (min-width: 1200px){
+    .banner img{
+    width: 20%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+
+    .contact{
+        height: 100%;
+    }
+}
+
+/*large*/
+@media only screen and (min-width: 993px) and (max-width:1199px){
+    .banner img{
+    width: 25%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+
+    .contact{
+        height: 100%;
+    }
+}
+
+/*medium*/
+@media only screen and (min-width: 768px) and (max-width:992px){
+    .banner img{
+    width: 35%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+
+
+    }
+}
+
+
+/*small*/
+@media only screen and (min-width: 576px) and (max-width:767px){
+    .banner img{
+    width: 40%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+}
+    
+
+/*extra small*/
+@media only screen and (max-width: 575px){
+    .banner img{
+    width: 50%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+}
