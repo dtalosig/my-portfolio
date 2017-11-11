@@ -35,15 +35,6 @@ body{
 #button_icon{
     line-height: 21px !important;
 }
-  .affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
 /************************************end of navbar*******************************************/
 
 
@@ -83,12 +74,12 @@ body{
 
 .profile-picture{
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 20px solid;
     border-color: rgba(255,255,255,0.8);
-    bottom: -250px;
+    bottom: -100px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -119,7 +110,7 @@ body{
 
 /******************************************about-me******************************************/
 .about-me{
-    min-height: 500px;
+    min-height: 1000px;
 }
 /***********************************end of about-me******************************************/
 
@@ -128,7 +119,7 @@ body{
 
 /******************************************skills******************************************/
 .skills{
-    min-height: 500px;
+    min-height: 1000px;
 }
 /***********************************end of skills******************************************/
 
@@ -137,7 +128,7 @@ body{
 
 /******************************************capstone******************************************/
 .capstone{
-    min-height: 500px;
+    min-height: 1000px;
 }
 /***********************************end of capstone******************************************/
 
@@ -146,7 +137,7 @@ body{
 
 /******************************************contact******************************************/
 .contact{
-    min-height: 500px;
+    min-height: 1000px;
 }
 /***********************************end of contact******************************************/
 
