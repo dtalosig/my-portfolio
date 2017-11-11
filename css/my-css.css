@@ -325,6 +325,10 @@ body{
     min-height: 10vh;
     background-color: #02A0CE;
 }
+
+.footer span{
+    line-height: 10vh;
+}
 /***********************************end of footer******************************************/
 
 .letter-spacing{
