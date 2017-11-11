@@ -3,3 +3,9 @@
 #ADF8F2
 #9BAACA --
 #CDBDCC --pink
+
+html/css
+js/jquery
+laravel
+php
+
