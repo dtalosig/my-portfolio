@@ -10,9 +10,19 @@ body{
     width: 100%;
     border-radius: 0;
     border: 0;
+    background-image: none;
+}
+
+.navbar-options{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
 }
 
 #navbar-button{
+    /*background-color: white;*/
     padding: 5px;
     color: white;
 }
@@ -25,6 +35,15 @@ body{
 #button_icon{
     line-height: 21px !important;
 }
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
 /************************************end of navbar*******************************************/
 
 
@@ -37,6 +56,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 100vh;
+    background-position: center; 
 }
 
 .upper > img[alt*="upper"]{
@@ -94,11 +114,45 @@ body{
 }
 /***************************************end of home******************************************/
 
+
+
+
 /******************************************about-me******************************************/
 .about-me{
     min-height: 500px;
 }
 /***********************************end of about-me******************************************/
+
+
+
+
+/******************************************skills******************************************/
+.skills{
+    min-height: 500px;
+}
+/***********************************end of skills******************************************/
+
+
+
+
+/******************************************capstone******************************************/
+.capstone{
+    min-height: 500px;
+}
+/***********************************end of capstone******************************************/
+
+
+
+
+/******************************************contact******************************************/
+.contact{
+    min-height: 500px;
+}
+/***********************************end of contact******************************************/
+
+
+
+
 /*extra large*/
 @media only screen and (min-width: 1200px){
     .banner img{

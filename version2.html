@@ -44,24 +44,24 @@
 	<script src="./js/my-javascript.js"></script>
 </head>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
 
-<nav class="navbar navbar-inverse navbar-modifier">
+<nav class="navbar navbar-inverse navbar-modifier" data-spy="affix" data-offset-top="10">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" id="navbar-button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
       	<span id="button_text">MENU</span> 
       	<span id="button_icon" class="fa fa-bars text-right"></span>
       </button>
-      <a class="navbar-brand" href="#">My Portfolio</a>
+      <a class="navbar-brand" href="#home">My Portfolio</a>
     </div>
 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Skills</a></li> 
-        <li><a href="#">Capstone Projects</a></li> 
-        <li><a href="#">Contact</a></li> 
+        <li><a class="navbar-options" href="#about">About Me</a></li>
+        <li><a class="navbar-options" href="#skill">Skills</a></li> 
+        <li><a class="navbar-options" href="#capstone">Capstone Projects</a></li> 
+        <li><a class="navbar-options" href="#contact">Contact</a></li> 
       </ul>
     </div>
   </div>
@@ -118,8 +118,20 @@
 	</div>	<!--/. banner-->
 </div>	<!--/. upper-->
 
-<div class="about-me">
-	
+<div id="about" class="about-me">
+	about me
+</div>
+
+<div id="skill" class="skills">
+	skills
+</div>
+
+<div id="capstone" class="capstone">
+	capstone
+</div>
+
+<div id="contact" class="contact">
+	contact
 </div>
 
 </body>
