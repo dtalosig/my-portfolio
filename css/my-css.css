@@ -109,6 +109,51 @@ body{
     background-color: #7DE6EE;
     padding: 10px;
 }
+
+.about-me h2{
+    margin-top: 150px;
+}
+.about-me .hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 2em;
+  opacity: .5;
+}
+
+.about-me .hr-text::before {
+    content: '';
+    /*use the linear-gradient for the fading effect*/
+    /*use a solid background color for a solid bar*/
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 5px;
+    transform: translate(-50%, -50%);
+  }
+
+.about-me .hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: .7em;
+    /*this is really the only tricky part, you need to specify the background color of the container element...*/
+    color: #818078;
+    background-color: #7DE6EE;
+    width: 100px;
+    color: black;
+    font-size: 3em;
+    font-weight: bolder;
+  }
+
+
 /***********************************end of about-me******************************************/
 
 
@@ -120,6 +165,46 @@ body{
     background-color: #9BAACA;
     padding: 10px;
 }
+
+.skills .hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 2em;
+  opacity: .5;
+}
+
+.skills .hr-text::before {
+    content: '';
+    /*use the linear-gradient for the fading effect*/
+    /*use a solid background color for a solid bar*/
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 5px;
+    transform: translate(-50%, -50%);
+  }
+
+.skills .hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: .7em;
+    /*this is really the only tricky part, you need to specify the background color of the container element...*/
+    color: #818078;
+    background-color: #9BAACA;
+    width: 100px;
+    color: black;
+    font-size: 3em;
+    font-weight: bolder;
+  }
 /***********************************end of skills******************************************/
 
 
@@ -131,6 +216,46 @@ body{
     background-color: #CDBDCC;
     padding: 10px;
 }
+
+.capstone .hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 2em;
+  opacity: .5;
+}
+
+.capstone .hr-text::before {
+    content: '';
+    /*use the linear-gradient for the fading effect*/
+    /*use a solid background color for a solid bar*/
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 5px;
+    transform: translate(-50%, -50%);
+  }
+
+.capstone .hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: .7em;
+    /*this is really the only tricky part, you need to specify the background color of the container element...*/
+    color: #818078;
+    background-color: #CDBDCC;
+    width: 100px;
+    color: black;
+    font-size: 3em;
+    font-weight: bolder;
+  }
 /***********************************end of capstone******************************************/
 
 
@@ -142,9 +267,57 @@ body{
     background-color: #02A0CE;
     padding: 10px;
 }
+
+.contact .hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 2em;
+  opacity: .5;
+}
+
+.contact .hr-text::before {
+    content: '';
+    /*use the linear-gradient for the fading effect*/
+    /*use a solid background color for a solid bar*/
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 5px;
+    transform: translate(-50%, -50%);
+  }
+
+.contact .hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: .7em;
+    /*this is really the only tricky part, you need to specify the background color of the container element...*/
+    color: #818078;
+    background-color: #02A0CE;
+    width: 100px;
+    color: black;
+    font-size: 3em;
+    font-weight: bolder;
+  }
 /***********************************end of contact******************************************/
 
+.letter-spacing{
+    letter-spacing: 5px;
+}
 
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 
 
 /*extra large*/
