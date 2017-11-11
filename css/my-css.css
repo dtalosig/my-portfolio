@@ -1,0 +1,162 @@
+body{
+    min-width: 310px;
+}
+
+/*******************************************navbar*******************************************/
+.navbar-modifier{
+    margin: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+}
+
+#navbar-button{
+    padding: 5px;
+    color: white;
+}
+#button_text{
+    float: left;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+#button_icon{
+    line-height: 21px !important;
+}
+/************************************end of navbar*******************************************/
+
+
+
+
+/********************************************home********************************************/
+.upper{
+    position: relative;
+    background-image: url("../img/code.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.upper > img[alt*="upper"]{
+    width: 100%;
+    height: 100%;
+
+    /*blur effect*/
+/*  -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);*/
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-picture{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 20px solid;
+    border-color: rgba(255,255,255,0.8);
+    bottom: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile{
+    color: white;
+}
+
+.banner h1{
+  color: white;
+}
+
+.banner h3{
+  color: white;
+}
+
+.social-media{
+  margin-top: 40px;
+}
+
+.download a{
+    margin-top: 30px;
+}
+/***************************************end of home******************************************/
+
+/******************************************about-me******************************************/
+.about-me{
+    min-height: 500px;
+}
+/***********************************end of about-me******************************************/
+/*extra large*/
+@media only screen and (min-width: 1200px){
+    .banner img{
+    width: 20%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+
+    .contact{
+        height: 100%;
+    }
+}
+
+/*large*/
+@media only screen and (min-width: 993px) and (max-width:1199px){
+    .banner img{
+    width: 25%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+
+    .contact{
+        height: 100%;
+    }
+}
+
+/*medium*/
+@media only screen and (min-width: 768px) and (max-width:992px){
+    .banner img{
+    width: 35%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+
+
+    }
+}
+
+
+/*small*/
+@media only screen and (min-width: 576px) and (max-width:767px){
+    .banner img{
+    width: 40%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+}
+    
+
+/*extra small*/
+@media only screen and (max-width: 575px){
+    .banner img{
+    width: 50%;
+    display: block;
+    margin: auto;
+  border-radius: 50%;
+    }
+}
