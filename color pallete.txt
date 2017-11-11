@@ -1,5 +1,5 @@
-#02A0CE
-#7DE6EE
+#02A0CE -- footer
+#7DE6EE -- about me
 #ADF8F2
-#9BAACA
-#CDBDCC
+#9BAACA --
+#CDBDCC --pink

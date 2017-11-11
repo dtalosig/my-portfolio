@@ -106,7 +106,7 @@ body{
 /******************************************about-me******************************************/
 .about-me{
     min-height: 100vh;
-    background-color: #7DE6EE;
+    background-color: #ADF8F2;
     padding: 10px;
 }
 
@@ -146,7 +146,7 @@ body{
     line-height: .7em;
     /*this is really the only tricky part, you need to specify the background color of the container element...*/
     color: #818078;
-    background-color: #7DE6EE;
+    background-color: #ADF8F2;
     width: 100px;
     color: black;
     font-size: 3em;
@@ -162,7 +162,7 @@ body{
 /******************************************skills******************************************/
 .skills{
     min-height: 100vh;
-    background-color: #9BAACA;
+    background-color: #7DE6EE;
     padding: 10px;
 }
 
@@ -199,7 +199,7 @@ body{
     line-height: .7em;
     /*this is really the only tricky part, you need to specify the background color of the container element...*/
     color: #818078;
-    background-color: #9BAACA;
+    background-color: #7DE6EE;
     width: 100px;
     color: black;
     font-size: 3em;
@@ -263,8 +263,8 @@ body{
 
 /******************************************contact******************************************/
 .contact{
-    min-height: 100vh;
-    background-color: #02A0CE;
+    min-height: 90vh;
+    background-color: #9BAACA;
     padding: 10px;
 }
 
@@ -301,7 +301,7 @@ body{
     line-height: .7em;
     /*this is really the only tricky part, you need to specify the background color of the container element...*/
     color: #818078;
-    background-color: #02A0CE;
+    background-color: #9BAACA;
     width: 100px;
     color: black;
     font-size: 3em;
@@ -316,6 +316,16 @@ body{
     margin-top: 0;
   }
 /***********************************end of contact******************************************/
+
+
+
+
+/******************************************footer******************************************/
+.footer{
+    min-height: 10vh;
+    background-color: #02A0CE;
+}
+/***********************************end of footer******************************************/
 
 .letter-spacing{
     letter-spacing: 5px;
