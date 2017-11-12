@@ -205,6 +205,21 @@ body{
     font-size: 3em;
     font-weight: bolder;
   }
+
+  .progress-container{
+    margin-top: 100px;
+  }
+
+  .progress-content{
+    border: 1px solid;
+    min-height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .c100{
+    margin: 0 auto;
+    float: none;
+  }
 /***********************************end of skills******************************************/
 
 
