@@ -57,7 +57,7 @@
       	<span id="button_icon" class="fa fa-bars text-right"></span>
       </button>
       <a class="navbar-brand" href="#home">My Portfolio</a>
-    </div>
+    </div>	<!--/. navbar-header-->
 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -66,8 +66,8 @@
         <li><a class="navbar-options" href="#capstone">Capstone Projects</a></li> 
         <li><a class="navbar-options" href="#contact">Contact</a></li> 
       </ul>
-    </div>
-  </div>
+    </div>	<!--/. collapse-navbar-->
+  </div>	<!--/. container-fluid-->
 </nav>
 
 <div class="upper" id="home">
@@ -110,7 +110,7 @@
 				  <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
 				</span></a>	<!-- /. stack-overflow icon-->
 			</div>	<!--/. col-lg-12-->
-		</div>
+		</div>	<!--/. social-media-->
 
 		 <div class="columns download">
 		 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
@@ -131,8 +131,8 @@
 	<div class="container progress-container">
 		<div class="row">
 			<div class="col-md-4 col-sm-6 col-xs-12 progress-content">
-				<div class="c100 p50">
-				  <span>50%</span>
+				<div class="c100 p65">
+				  <span>65%</span>
 				  <div class="slice">
 				    <div class="bar"></div>
 				    <div class="fill"></div>
@@ -140,15 +140,16 @@
 				</div>
 				  <h3>HTML / CSS / JS</h3>
 				  <ul class="text-left">
-				  	<li>Hi</li>
-				  	<li>Hello</li>
-				  	<li>How are you?</li>
-				  	<li>I'm fine, and you ?</li>
+				  	<li>Responsive Design</li>
+				  	<li>Basic Animation</li>
+				  	<li>Bootstrap</li>
+				  	<li>Basic AJAX/JQuery</li>
 				  </ul>
-			</div>
+			</div>	<!--/. col-md-4-->
+
 			<div class="col-md-4 col-sm-6 col-xs-12 progress-content">
-				<div class="c100 p50">
-				  <span>50%</span>
+				<div class="c100 p80">
+				  <span>80%</span>
 				  <div class="slice">
 				    <div class="bar"></div>
 				    <div class="fill"></div>
@@ -161,7 +162,8 @@
 				  	<li>How are you?</li>
 				  	<li>I'm fine, and you ?</li>
 				  </ul>
-			</div>
+			</div>	<!--/. col-md-4-->
+
 			<div class="col-md-4 col-sm-6 col-xs-12 progress-content">
 				<div class="c100 p50">
 				  <span>50%</span>
@@ -177,14 +179,41 @@
 				  	<li>How are you?</li>
 				  	<li>I'm fine, and you ?</li>
 				  </ul>
-			</div>
-		</div>
-	</div>
+			</div>	<!--/. col-md-4-->
+		</div>	<!--/. row-->
+	</div> <!--/. container-->
 </div>	<!--/. skills-->
 
 <div id="capstone" class="capstone text-center">
 	<h2 class="letter-spacing">CAPSTONE</h2>
 	<hr class="hr-text" data-content="</>">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://dtalosig.github.io/b5dc-csp1-daniel/" target="_blank">
+					<img src="./img/csp1.png" class="img-responsive">
+				</a>
+
+				<a href="https://dtalosig.github.io/b5dc-csp1-daniel/" target="_blank">
+					<figcaption><h3>Capstone 1 : AdoptDon'tShop</h3></figcaption>
+				</a>
+			</div> <!--/. col-lg-4-->
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://danielmtalosig.000webhostapp.com/" target="_blank">
+					<img src="./img/csp2.png" class="img-responsive">
+				</a>
+
+				<a href="https://danielmtalosig.000webhostapp.com/" target="_blank">
+					<figcaption><h3>Capstone 2 : Dog Care</h3></figcaption>
+				</a>
+			</div> <!--/. col-lg-4-->
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+
+			</div> <!--/. col-lg-4-->
+		</div>	<!--/. row-->
+</div>
 </div>
 
 <div id="contact" class="contact">
@@ -193,48 +222,48 @@
 		<hr class="hr-text" data-content="</>">
 	</div>
 
-<div class="container form-container">
-	<h4>Feel free to get in touch with me if you have any inquiry by filling out the form below. You may also get in touch with me through the numbers provided on the right. Thank you!</h4><br>
-	<div class="row">
-		<div class="col-sm-7">
-		  <form class="form-horizontal" action="">
-		    <div class="form-group">
-		      <label class="control-label col-sm-2" for="name">Name :</label>
-		      <div class="col-sm-10">
-		        <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
-		      </div>
-		    </div>
-		    <div class="form-group">
-		      <label class="control-label col-sm-2" for="email">Email :</label>
-		      <div class="col-sm-10">          
-		        <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
-		      </div>
-		    </div>
-		    <div class="form-group">
-		      <label class="control-label col-sm-2" for="message">Message :</label>
-		      <div class="col-sm-10">          
-		        <textarea id="message" class="form-control" placeholder="Enter your message" rows="10"></textarea>
-		      </div>
-		    </div>
-		    <div class="form-group">        
-		      <div class="col-sm-offset-2 col-sm-10">
-		        <button type="submit" class="btn btn-default">Submit</button>
-		      </div>
-		    </div>
-		  </form>	<!--/. form-->	
-		</div>	<!--/. col-sm-8-->
+	<div class="container form-container">
+		<h4>Feel free to get in touch with me if you have any inquiry by filling out the form below. You may also get in touch with me through the numbers provided on the right. Thank you!</h4><br>
+		<div class="row">
+			<div class="col-sm-7">
+			  <form class="form-horizontal" action="">
+			    <div class="form-group">
+			      <label class="control-label col-sm-2" for="name">Name :</label>
+			      <div class="col-sm-10">
+			        <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-2" for="email">Email :</label>
+			      <div class="col-sm-10">          
+			        <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-2" for="message">Message :</label>
+			      <div class="col-sm-10">          
+			        <textarea id="message" class="form-control" placeholder="Enter your message" rows="10"></textarea>
+			      </div>
+			    </div>
+			    <div class="form-group">        
+			      <div class="col-sm-offset-2 col-sm-10">
+			        <button type="submit" class="btn btn-default">Submit</button>
+			      </div>
+			    </div>
+			  </form>	<!--/. form-->	
+			</div>	<!--/. col-sm-8-->
 
-		<div class="col-sm-4 col-sm-offset-1 contact-info">
-			<h3>Contact Information</h3>
-			<p><strong>Email Address :</strong></p>
-			<p>danielmtalosig@gmail.com</p><br>
-			<p><strong>Contact Number :</strong></p>
-			<p>09568745404</p><br>
-			<p><strong>Location :</strong></p>
-			<p>1663 Gumamela St. Caloocan City</p>
-		</div>
-	</div>	<!--/. row-->
-</div>
+			<div class="col-sm-4 col-sm-offset-1 contact-info">
+				<h3>Contact Information</h3>
+				<p><strong>Email Address :</strong></p>
+				<p>danielmtalosig@gmail.com</p><br>
+				<p><strong>Contact Number :</strong></p>
+				<p>09568745404</p><br>
+				<p><strong>Location :</strong></p>
+				<p>1663 Gumamela St. Caloocan City</p>
+			</div>
+		</div>	<!--/. row-->
+	</div>	<!--/. container-->
 
 </div>	<!--/. container-->
 
