@@ -451,12 +451,18 @@ body{
     position: relative;
 }
 
+
+.image-container img{
+    border-radius: 5px;
+}
+
 .capstone-container{
     margin-top: 100px;
 }
 
 .image-overlay{
   position: absolute;
+  border-radius: 5px;
   top: 0;
   left: 0;
   width: 100%;
