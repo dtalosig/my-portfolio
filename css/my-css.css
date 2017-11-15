@@ -1,5 +1,6 @@
 body{
     min-width: 310px;
+    font-family: 'Slabo 27px', serif;
 }
 
 /*******************************************navbar*******************************************/
@@ -225,6 +226,7 @@ body{
     width: 46%;
     float: left;
     border: 1px solid #d4d4d4;
+    background-color: #9ce5df;
     border-radius: 2px;
     padding: 20px;
     position: relative;
@@ -335,7 +337,7 @@ body{
 /******************************************skills******************************************/
 .skills{
     min-height: 100vh;
-    background-color: #7DE6EE;
+    background-color: #80DED9;
     padding: 10px;
 }
 
@@ -384,7 +386,6 @@ body{
   }
 
   .progress-content{
-    min-height: 350px;
     margin-bottom: 20px;
     padding: 20px;
   }
@@ -541,8 +542,6 @@ body{
 /***********************************end of contact******************************************/
 
 
-
-
 /******************************************footer******************************************/
 .footer{
     min-height: 10vh;
@@ -558,12 +557,6 @@ body{
     letter-spacing: 5px;
 }
 
-.clear::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-
 .hr-black{
     display: block;
     height: 1px;
@@ -572,6 +565,34 @@ body{
     margin: 1em 0;
     padding: 0; 
 }
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text1{
+    font-family: 'Slabo 27px', serif;
+}
+
+.text2{
+    font-family: 'Roboto Slab', serif;
+}
+
+.text3{
+    font-family: 'Merriweather', serif;
+}
+
+.text4{
+    font-family: 'PT Serif', serif;
+    font-size: 4em;
+}
+
+.text5{
+    font-family: 'Bitter', serif;
+}
+
 
 /*extra large*/
 @media only screen and (min-width: 1200px){
