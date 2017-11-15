@@ -161,6 +161,7 @@ body{
 /********************about-me-container********************/
 .about-me-containers{
     border: 1px solid;
+    border-color: white;
     border-radius: 10px;
     min-height: 300px;
     padding: 10px;
@@ -374,7 +375,7 @@ body{
     line-height: .7em;
     /*this is really the only tricky part, you need to specify the background color of the container element...*/
     color: #818078;
-    background-color: #7DE6EE;
+    background-color: #80DED9;
     width: 100px;
     color: black;
     font-size: 3em;
