@@ -477,6 +477,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     visibility: hidden;
+    text-align: left;
+    color: white;
 }
 
 .image-container:hover .image-overlay{
